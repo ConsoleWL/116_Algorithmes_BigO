@@ -4,7 +4,12 @@
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello, World!");
+            Algorithms algorithms = new Algorithms();
+
+            bool result1 = algorithms.EvenOrOdd(5);
+            bool result2 = algorithms.EvenOrOdd(6);
+
+            int temp = 0;
         }
     }
 }
