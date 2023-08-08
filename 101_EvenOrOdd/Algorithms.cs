@@ -15,5 +15,19 @@ namespace _101_EvenOrOdd
                 return true;
             return false;
         }
+
+        // O(n);
+        public bool LessThan100(int[] numbers)
+        {
+            bool result = true;
+
+            for (int i = 0; i < numbers.Length; i++)
+            {
+                if (i >= 100)
+                    result = false;
+            }
+
+            return result;
+        }
     }
 }
